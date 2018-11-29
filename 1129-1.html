@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+	<script type="text/javascript">
+		window.onload=function  (){
+			var box = document.getElementsByTagName("*");
+			//alert(box)
+			/*
+			alert(box.innerHTML);
+			alert(box.nodeName);
+			alert("kkk")
+			alert(box.tagName);
+			alert(box.nodeType);
+			*/
+			//alert(box.nodeValue);
+			//alert(box.childNodes.length)
+			//for(var k = 0;k<box.childNodes.length;k++){
+				//alert(box.childNodes[k].nodeName);
+				alert(box);
+				alert(box.length);
+				for(var i =  0;i<box.length;i++){
+					alert(box[i].tagName);
+				}
+			}
+		
+	</script>
+</head>
+<body>
+<div id="box1" class="box" title="bbbb">lllll<b>nihao</b>jjjjj</div>
+</body>
+</html>
